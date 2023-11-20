@@ -1,6 +1,6 @@
 package Arrays;
 
-import InputOutput.Person;
+import Arrays.Person;
 
 public class MainOOP {
 

@@ -1,14 +1,13 @@
 package Comparator2;
 
-import InputOutput.Person;
+import Comparator2.Person;
 
 import java.util.ArrayList;
 
 public class MainPersonsList {
 
 	public static void main(String[] args) {
-		ArrayList<Person> list = 
-				new ArrayList<Person>();
+		ArrayList<Person> list = new ArrayList<Person>();
 		Person p1 = new Person("Alice", 1, 25.5);
         Person p2 = new Person("Bob", 2, 30.0);
         Person p3 = new Person("Charlie", 3, 22.8);
@@ -34,7 +33,7 @@ public class MainPersonsList {
         printPersonsList(list);
         list.sort(null);
         printPersonsList(list);
-        ComparatorPersonsByID cmp1 = 
+        ComparatorPersonsByID cmp1 =
         		new ComparatorPersonsByID();
         list.sort(cmp1);
         printPersonsList(list);

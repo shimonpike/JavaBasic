@@ -1,6 +1,6 @@
 package Comparator2;
 
-public class Person implements Comparable<InputOutput.Person>{
+public class Person implements Comparable<Person>{
   private String name;
   private int id;
   private double age;
@@ -44,11 +44,11 @@ public boolean equals(Object obj) {
 		return false;
 	if (getClass() != obj.getClass())
 		return false;
-	InputOutput.Person other = (InputOutput.Person) obj;
+	Person other = (Person) obj;
 	return this.id == other.id;
 }
 @Override
-public int compareTo(InputOutput.Person other) {
+public int compareTo(Person other) {
 	int res = this.name.compareToIgnoreCase(other.name);
 	//int res = Integer.compare(other.id, this.id);
 	return res;

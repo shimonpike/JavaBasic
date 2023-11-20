@@ -1,6 +1,6 @@
 package Arrays;
 
-import Maps.Car;
+import Arrays.Car;
 
 public class MainCars {
 
