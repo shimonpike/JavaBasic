@@ -1,3 +1,4 @@
+package Exceptions;
 
 public class WrongActionException extends Exception{
 	public WrongActionException() {

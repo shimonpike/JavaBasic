@@ -1,3 +1,5 @@
+package Maps;
+
 import java.util.Objects;
 
 public class Car implements Comparable<Car>{

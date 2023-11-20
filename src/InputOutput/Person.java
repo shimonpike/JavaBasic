@@ -1,3 +1,4 @@
+package InputOutput;
 
 public class Person {
 	private String name;

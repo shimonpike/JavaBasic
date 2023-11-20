@@ -1,3 +1,7 @@
+package Files;
+
+import Files.Person;
+
 import java.io.*;
 import java.util.*;
 
@@ -10,10 +14,10 @@ public class MainArrayListToFile {
 		InputStreamReader is = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(is);
 		mainMenu(list,fl,br);
-		   /*Person p1 = new Person("Alice", 1, 25.5);
-	       Person p2 = new Person("Bob", 2, 30.0);
-	       Person p3 = new Person("Charlie", 3, 22.8);
-	       Person p4 = new Person("David", 4, 35.2);
+		   /*InputOutput.Comparator2.Arrays.Person p1 = new InputOutput.Comparator2.Arrays.Person("Alice", 1, 25.5);
+	       InputOutput.Comparator2.Arrays.Person p2 = new InputOutput.Comparator2.Arrays.Person("Bob", 2, 30.0);
+	       InputOutput.Comparator2.Arrays.Person p3 = new InputOutput.Comparator2.Arrays.Person("Charlie", 3, 22.8);
+	       InputOutput.Comparator2.Arrays.Person p4 = new InputOutput.Comparator2.Arrays.Person("David", 4, 35.2);
 	       list.add(p1);
 	       list.add(p2);
 	       list.add(p3);
@@ -87,7 +91,7 @@ public class MainArrayListToFile {
 		System.out.println("ERROR: wrong id");
 	}
 
-	private static Person getPersonFromConsole(BufferedReader br) 
+	private static Person getPersonFromConsole(BufferedReader br)
 			                              throws IOException {
 		System.out.println("add new person...");
 		System.out.print("enter person's name>>>");

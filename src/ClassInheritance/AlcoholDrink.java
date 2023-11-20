@@ -1,3 +1,4 @@
+package ClassInheritance;
 
 public class AlcoholDrink extends Drink{
 	private double volume;

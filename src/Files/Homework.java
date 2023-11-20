@@ -1,8 +1,9 @@
+package Files;
 
 public class Homework {
 /*
-	public Homework() {
-	  Book
+	public Strings.Maps.InputOutput.Comparator2.ClassInheritance.Arrays.Homework() {
+	  Arrays.Book
 	  ----
 	  author(String)
 	  title(String)
@@ -10,9 +11,9 @@ public class Homework {
 	  isbn(int)
 	  price(double)
 	  
-	  ArrayList<Book> booksShop;
+	  ArrayList<Arrays.Book> booksShop;
 	  advanced :
-	  TreeMap<Book,Integer> booksShop	
+	  TreeMap<Arrays.Book,Integer> booksShop
 	}
 */
 }

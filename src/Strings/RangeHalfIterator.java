@@ -1,3 +1,5 @@
+package Strings;
+
 import java.util.Iterator;
 
 public class RangeHalfIterator 

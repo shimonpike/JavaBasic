@@ -1,3 +1,4 @@
+package Strings;
 
 public class MainRange {
 public static void main(String[] args) {

@@ -1,8 +1,9 @@
+package ClassInheritance;
 
 public class Homework {
 /*        Object 
  *           |
- *          Book
+ *          Arrays.Book
  *          ----
  *          author(String)
  *          title(String)
@@ -13,7 +14,7 @@ public class Homework {
  *         -----------
  *         regNumber(int)
  *   |                     |                   |
- * FictionBook         EducationBook       ArtBook 
+ * Arrays.FictionBook         Arrays.EducationBook       ArtBook
  * ----------          -------------       -------
  * genre(String)       subject(String)    art(String)
  *    |
@@ -25,7 +26,7 @@ public class Homework {
  *   Write all classes and create objects in main method
  *   Override toString() in all classes
  *   
- *   Create array Book[] library;
+ *   Create array Arrays.Book[] library;
  *   and print all book with loop foreach
  *         
  *         

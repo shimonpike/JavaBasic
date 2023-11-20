@@ -1,3 +1,5 @@
+package Supermarket;
+
 import java.util.*;
 
 public class MainHomework {

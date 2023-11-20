@@ -1,3 +1,4 @@
+package InputOutput;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ while(true)
 	System.out.println("add new person");
 	Person pr = getPerson(scan);
 	list.add(pr);
-	System.out.print("another Person ? yes or no>>>");
+	System.out.print("another InputOutput.Comparator2.Arrays.Person ? yes or no>>>");
 	String answer = scan.nextLine();
 	if(answer.equalsIgnoreCase("no"))
 	{

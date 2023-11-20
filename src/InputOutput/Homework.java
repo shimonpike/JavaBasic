@@ -1,7 +1,8 @@
+package InputOutput;
 
 public class Homework {
 /*
- * Book
+ * Arrays.Book
  * -----
  * author(String)
  * title(String)
@@ -9,7 +10,7 @@ public class Homework {
  * isbn(int)
  * 
  * MainBooks
- * create ArrayList<Book> 
+ * create ArrayList<Arrays.Book>
  * and fill it use BufferedReader
  *  
  * 

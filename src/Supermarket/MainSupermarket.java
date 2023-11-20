@@ -1,4 +1,5 @@
-import com.tlalim.supermarket.superm.*;
+package Supermarket;
+
 
 public class MainSupermarket {
 
@@ -46,7 +47,7 @@ sup.displayProducts();
 
 }
 /*
-       Product
+       ClassInheritance.Product
        --------
        name(String)
        code(int)
@@ -57,9 +58,9 @@ sup.displayProducts();
        -------------
        name(String)
        address(String)
-       TreeMap<Product,Integer> products
+       TreeMap<ClassInheritance.Product,Integer> products
        =================================
-       addProduct(Product pr,int quantity)
+       addProduct(ClassInheritance.Product pr,int quantity)
        displayAllProducts()
        removeProduct(code , int quantity)
        removeProduct(code)

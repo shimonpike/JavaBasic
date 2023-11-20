@@ -1,3 +1,4 @@
+package Arrays;
 
 public class ArraysMethods {
 public static void sortBubble(int[] ar)

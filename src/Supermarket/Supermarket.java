@@ -1,4 +1,4 @@
-package com.tlalim.supermarket.superm;
+package Supermarket;
 
 import java.util.*;
 

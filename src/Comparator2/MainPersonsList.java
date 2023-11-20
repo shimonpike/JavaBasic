@@ -1,3 +1,7 @@
+package Comparator2;
+
+import InputOutput.Person;
+
 import java.util.ArrayList;
 
 public class MainPersonsList {

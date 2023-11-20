@@ -1,3 +1,7 @@
+package Comparator2;
+
+import InputOutput.Person;
+
 import java.util.Comparator;
 
 public class ComparatorPersonsByAge implements Comparator<Person>{

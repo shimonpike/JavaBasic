@@ -1,3 +1,6 @@
+package Arrays;
+
+import InputOutput.Person;
 
 public class MainOOP {
 
@@ -31,21 +34,21 @@ public class MainOOP {
 	 * 
 	 */
    /*
-    *   Person
+    *   InputOutput.Comparator2.Arrays.Person
     *   --------
     *   name
     *   id
     *   age
     *   ....
     *   
-    *   Car
+    *   Maps.Arrays.Car
     *   ---
     *   model
     *   year
     *   engine
     *   ....
     *   
-    *   Book
+    *   Arrays.Book
     *   ----
     *   author
     *   title

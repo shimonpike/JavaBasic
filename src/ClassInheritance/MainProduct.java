@@ -1,3 +1,4 @@
+package ClassInheritance;
 
 public class MainProduct {
 

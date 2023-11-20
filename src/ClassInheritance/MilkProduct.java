@@ -1,3 +1,4 @@
+package ClassInheritance;
 
 public class MilkProduct extends Product{
 	private String milkType;

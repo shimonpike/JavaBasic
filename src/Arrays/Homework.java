@@ -1,14 +1,15 @@
+package Arrays;
 
 public class Homework {
 /*
- *         Product
+ *         ClassInheritance.Product
  *         -------
  *         name(String)
  *         price(double)
  *         code(int)
  *         unit(String)
  *    |                        |
- * MeatProduct             MilkProduct
+ * ClassInheritance.MeatProduct             ClassInheritance.MilkProduct
  * -----------            -------------
  * meatType(String)       milkType(String)  
  *                        fat(double)

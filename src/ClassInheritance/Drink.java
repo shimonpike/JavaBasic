@@ -1,3 +1,4 @@
+package ClassInheritance;
 
 public class Drink extends Product{
 	private boolean isSparkling;

@@ -1,3 +1,4 @@
+package Arrays;
 
 public class MainBook {
 
@@ -23,7 +24,7 @@ System.out.println(edb);
                Object 
                 toString()
       		     |
-      			Book
+      			Arrays.Book
       			----
       			author
       			title
@@ -31,7 +32,7 @@ System.out.println(edb);
       			isbn
       			toString()
         |                 |
-      FictionBook    EducationBook
+      Arrays.FictionBook    Arrays.EducationBook
       -----------    -------------
        genre             subject
        toString()      toString()
